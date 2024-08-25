@@ -65,7 +65,7 @@ def main():
     results = infer_image(img_path)
     print("Resultados de la inferencia:")
     for label, prob in results.items():
-        print(f"{label}: {prob:.4f}")
+        print(f"{label}: {prob:.4f}") 
     return(label, prob)
 
 if __name__ == "__main__":
